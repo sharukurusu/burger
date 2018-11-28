@@ -1,5 +1,5 @@
-const   express = require("express"),
-        router = express.Router(),
+const express = require("express"),
+        // router = express.Router(),
         burger = require("../models/burger.js");
 
 module.exports = function(app) {
