@@ -4,8 +4,7 @@ const   express = require("express"),
         // Set Handlebars.
         exphbs = require("express-handlebars"),
         // Import routes and give the server access to them.
-        routes = require("./controllers/burgers_controller.js");
-
+        routes = require("controllers/burgers_controller.js");
 // Serve static content for the app from the "public" directory in the application directory.
 app.use(express.static("public"));
 
